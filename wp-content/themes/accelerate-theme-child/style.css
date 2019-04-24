@@ -71,3 +71,27 @@ div.case-study-images img {
 	width: 100%;
 	height: auto;
 }
+
+/* Social media navigation */
+
+.social-media-navigation {
+	float: right;
+	width: 7%;
+}	
+
+.social-media-navigation ul {
+	list-style: none;
+}
+
+.social-media-navigation ul li {
+	display: block;
+}
+
+.social-media-navigation ul img {
+	font size: 0px;
+	padding: 5px;
+	display: inline-block;
+}
+
+
+

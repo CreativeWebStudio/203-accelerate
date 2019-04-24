@@ -33,8 +33,6 @@ get_header(); ?>
  				$size = "full"; 
  				$services = get_field('services');
  			?>
-	
-	
 	<article class="case-study">
 		<aside class="case-study-sidebar">
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -49,13 +47,10 @@ get_header(); ?>
 			<?php if ($image_1) { ?>
 				<img src="<?php echo $image_1; ?>" />
 			<?php } ?>
-			
-</div>
-					
-				</article>
+		</div>
+	</article>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
-			</div><!-- #primary -->
-
+	</div><!-- #primary -->
 <?php get_footer(); ?>
 
