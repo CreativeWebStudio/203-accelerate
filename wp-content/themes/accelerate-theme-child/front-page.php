@@ -35,7 +35,7 @@ get_header(); ?>
  			<li class="individual-featured-work">
 
  				<?php if ($image_1) { ?>
-					<img src="<?php echo $image_1; ?>" />;
+					<img src="<?php echo $image_1; ?>" />
 				<?php } ?>
 
  				<figure>
