@@ -130,3 +130,30 @@ div.case-study-images img {
 .social-media-menu li {
   display: inline-block;
 }
+
+/*CONTACT PAGE STYLE*/
+#nf-field-1-container, #nf-field-2-container{
+    width: 462px;
+    display: inline-block;
+    }
+
+#nf-field-1-container{
+    margin-right: 15px;
+    }
+
+#nf-field-2-container {
+    margin-left: 15px;
+    }
+
+#nf-field-4-container {
+        color: #45ac9d;
+        background: #45ac9d;
+        float: right;
+}
+#nf-field-4 {
+        color: #fff;
+        background: #45ac9d;
+}
+
+
+/*END OF CONTACT PAGE STYLE*/
