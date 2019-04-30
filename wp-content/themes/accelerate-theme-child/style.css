@@ -46,6 +46,7 @@
 .individual-featured-work h3 {
     font: 500 1em/1.75 'Open Sans', Arial, sans-serif;
 }
+/* featured work on homepage */
 
 /* blog post on homepage */
 .blog-post h4 {
@@ -62,6 +63,68 @@
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+/* blog post on homepage */
+
+/* about page  */
+
+.about-page h2 {
+color: white;
+}
+
+.services {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.services h1, h2 {
+    text-align: center;
+}
+
+.services h3, p {
+    text-align: left;
+}
+
+.individual-about-service li {
+  
+      }
+
+.service-images {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-top: 40px;
+  }
+
+.about-description {
+    width: 70%;
+    float: left;
+}
+
+.about-services {
+    list-style: none;
+    margin-left: auto;
+}
+
+.contact-button h2 {
+    float: left;
+    margin-left: 100px;
+}
+
+.button {
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+
+/* END about page  */
+
 
 /*Case Studies*/
 .case-study {
@@ -116,6 +179,9 @@ div.case-study-images img {
     }
 }
 
+/* END Media Queries */
+
+
 /* Social media navigation */
 
 .social-media-navigation ul {
@@ -130,8 +196,11 @@ div.case-study-images img {
 .social-media-menu li {
   display: inline-block;
 }
+/* END Social media navigation */
 
-/*CONTACT PAGE STYLE*/
+
+
+/*CONTACT US PAGE STYLE*/
 #nf-field-1-container, #nf-field-2-container{
     width: 462px;
     display: inline-block;
@@ -155,5 +224,13 @@ div.case-study-images img {
         background: #45ac9d;
 }
 
+/*END OF CONTACT US PAGE STYLE*/
 
-/*END OF CONTACT PAGE STYLE*/
+/* 404 Page */
+
+.404-image {
+  background: url(img/map.png) no-repeat center cover;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
