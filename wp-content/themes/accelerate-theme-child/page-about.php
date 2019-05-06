@@ -70,21 +70,12 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<div class='contact-button'>
 					<h2>Interested in working with us?</h2>
-					<a class="button" href="<?php echo home_url(); ?>/blog">Contact Us</a>
+						<a class="cbutton" href="<?php echo home_url('/contact-us/'); ?>">Contact Us</a>
 				</div>
 			<?php endwhile; // end of the loop. ?>
 	</div>
 </section>
-
-
-
-
-
-
-	
-
-			
-			
+		
 
 
 <?php get_footer(); ?>
